@@ -163,10 +163,17 @@ s = 'Shital Shelar'
 expected = 'latihS ralehS'
 ---------------------------------------------------------------------
 
-solution -
+solution 1 -
 s = 'Shital Shelar'
 for i in s.split():
     print(i[::-1], end=' ')
+----------------------------------------------------------------------
+
+solution 2 -
+s = 'Shital Shelar'
+s1 = s.split()
+res = [i[::-1] for i in s1]
+print(' '.join(res))
 =======================================================================
 
 # problem 10
